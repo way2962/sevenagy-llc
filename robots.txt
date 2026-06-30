@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sevenagy.thoangai.fans/sitemap.xml

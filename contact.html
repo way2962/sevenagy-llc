@@ -6,15 +6,23 @@
   <title>Contact — SEVENAGY LLC</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="canonical" href="https://sevenagy.thoangai.fans/contact.html">
+  <meta name="description" content="Contact SEVENAGY LLC for property management and real estate inquiries in St. Petersburg, Florida.">
+  <meta property="og:title" content="Contact — SEVENAGY LLC">
+  <meta property="og:description" content="Inquire about property management, acquisitions, and owner reporting.">
+  <meta property="og:url" content="https://sevenagy.thoangai.fans/contact.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.ico">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main">
   <nav class="nav" id="nav">
     <div class="container nav-inner">
-      <a href="index.html" class="logo">
-        <span class="logo-mark">S</span>
-        <span>SEVENAGY</span>
-      </a>
+      <a href="index.html" class="logo"><span class="logo-mark">S</span><span>SEVENAGY</span></a>
       <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
       <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
@@ -36,7 +44,7 @@
 
   <section class="section">
     <div class="container contact-wrap">
-      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks for contacting SEVENAGY. We will respond during business hours.');">
+      <form class="contact-form" onsubmit="event.preventDefault(); if(!document.getElementById('website').value.trim()){alert('Thanks for contacting SEVENAGY. We will respond during business hours.');}">
         <label for="name">Full Name</label>
         <input type="text" id="name" name="name" required>
 
@@ -51,6 +59,11 @@
 
         <label for="message">Message</label>
         <textarea id="message" name="message" placeholder="Please include property address if applicable." required></textarea>
+
+        <div class="hp" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;width:0" tabindex="-1">
+          <label for="website">Website</label>
+          <input type="text" id="website" name="website" autocomplete="off">
+        </div>
 
         <button type="submit" class="btn btn-primary">Send Message</button>
       </form>
@@ -90,6 +103,7 @@
     </div>
   </section>
 
+  </main>
   <footer class="footer">
     <div class="container footer-grid">
       <div class="footer-brand">
@@ -111,6 +125,12 @@
           <li><i class="fas fa-envelope"></i> contact@sevenagy.com</li>
           <li><i class="fas fa-phone"></i> +1 (813) 359-1500</li>
           <li><i class="fas fa-clock"></i> Mon–Fri: 8 AM – 6 PM</li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
         </ul>
       </div>
     </div>

@@ -1,22 +1,21 @@
-/* ===== Mobile Menu ===== */
-const hamburger = document.getElementById("hamburger");
-const navLinks = document.getElementById("navLinks");
-
-if (hamburger) {
-  hamburger.addEventListener("click", () => {
-    const open = navLinks.classList.toggle("open");
-    hamburger.setAttribute("aria-expanded", String(open));
-  });
-
-  document.querySelectorAll(".nav-links a").forEach(link => {
-    link.addEventListener("click", () => {
-      navLinks.classList.remove("open");
+document.addEventListener('DOMContentLoaded', function() {
+  const burger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  if (burger && navLinks) {
+    burger.addEventListener('click', function() {
+      navLinks.classList.toggle('open');
     });
-  });
-}
-
-/* ===== Sticky nav ===== */
-const nav = document.getElementById("nav");
-const updateNav = () => nav.classList.toggle("scrolled", window.scrollY > 10);
-window.addEventListener("scroll", updateNav, { passive: true });
-updateNav();
+    navLinks.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        navLinks.classList.remove('open');
+      });
+    });
+  }
+  const nav = document.getElementById('nav');
+  if (nav) {
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 10) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    });
+  }
+});
