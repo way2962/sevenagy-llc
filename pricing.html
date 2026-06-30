@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing — SEVENAGY LLC</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">SEVENAGY</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hosting.html">Hosting</a></li>
+        <li><a href="pricing.html" class="active">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="container">
+      <div class="page-hero-content">
+        <span class="page-hero-tag">Pricing</span>
+        <h1 class="page-hero-title">Plans That Scale with You</h1>
+        <p class="page-hero-subtitle">Start small, grow fast. All plans include white-label control panels, free SSL, and 24/7 infrastructure monitoring.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pricing-section">
+    <div class="container">
+      <div class="pricing-toggle">
+        <span>Monthly</span>
+        <button class="toggle-btn" id="billingToggle">Yearly (Save 15%)</button>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card" data-monthly="29" data-yearly="24">
+          <div class="pricing-header">
+            <h3>Starter</h3>
+            <p class="pricing-desc">For solo freelancers and new agencies</p>
+            <div class="pricing-price">
+              <span class="price-currency">$</span>
+              <span class="price-amount">29</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> 10 cPanel Accounts</li>
+            <li><i class="fas fa-check"></i> 50 GB NVMe SSD</li>
+            <li><i class="fas fa-check"></i> 500 GB Bandwidth</li>
+            <li><i class="fas fa-check"></i> Free SSL (Let's Encrypt)</li>
+            <li><i class="fas fa-check"></i> White-Label Panel</li>
+            <li><i class="fas fa-check"></i> Email Accounts (IMAP/POP3)</li>
+            <li><i class="fas fa-check"></i> 1-Click Install Scripts</li>
+            <li class="disabled"><i class="fas fa-times"></i> Priority Support SLA</li>
+            <li class="disabled"><i class="fas fa-times"></i> Dedicated IP</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline btn-block">Get Started</a>
+        </div>
+
+        <div class="pricing-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3>Professional</h3>
+            <p class="pricing-desc">For growing agencies and developers</p>
+            <div class="pricing-price">
+              <span class="price-currency">$</span>
+              <span class="price-amount">59</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> 50 cPanel Accounts</li>
+            <li><i class="fas fa-check"></i> 200 GB NVMe SSD</li>
+            <li><i class="fas fa-check"></i> 2 TB Bandwidth</li>
+            <li><i class="fas fa-check"></i> Imunify360 Security</li>
+            <li><i class="fas fa-check"></i> White-Label Panel</li>
+            <li><i class="fas fa-check"></i> Dedicated IP Included</li>
+            <li><i class="fas fa-check"></i> LiteSpeed + LSCache</li>
+            <li><i class="fas fa-check"></i> Priority Support SLA</li>
+            <li class="disabled"><i class="fas fa-times"></i> Custom Reseller Module</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary btn-block">Get Started</a>
+        </div>
+
+        <div class="pricing-card" data-monthly="119" data-yearly="99">
+          <div class="pricing-header">
+            <h3>Enterprise</h3>
+            <p class="pricing-desc">For high-volume partners and white-label brands</p>
+            <div class="pricing-price">
+              <span class="price-currency">$</span>
+              <span class="price-amount">119</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Unlimited cPanel Accounts</li>
+            <li><i class="fas fa-check"></i> 500 GB NVMe SSD</li>
+            <li><i class="fas fa-check"></i> Unmetered Bandwidth</li>
+            <li><i class="fas fa-check"></i> Imunify360 + DDoS Shield</li>
+            <li><i class="fas fa-check"></i> Custom Brand Domain</li>
+            <li><i class="fas fa-check"></i> Multi-Dedicated IPs</li>
+            <li><i class="fas fa-check"></i> Git + Staging Environments</li>
+            <li><i class="fas fa-check"></i> 2-Hour Escalation SLA</li>
+            <li><i class="fas fa-check"></i> Custom Reseller Module</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline btn-block">Contact Sales</a>
+        </div>
+      </div>
+      <p class="pricing-notes">All plans include: 30-day free trial · Cancel anytime · 99.9% uptime SLA</p>
+    </div>
+  </section>
+
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-content">
+          <h2>Questions About Plans or Pricing?</h2>
+          <p>Our team can build a custom proposal if your needs don't fit a standard tier.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary btn-lg">Talk to Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon">&#9670;</span>
+            <span class="logo-text">SEVENAGY</span>
+          </a>
+          <p>Veteran-owned & operated. Striving to be the best in reseller hosting and property management solutions.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="hosting.html">Web Hosting</a></li>
+            <li><a href="hosting.html">SSL &amp; Security</a></li>
+            <li><a href="hosting.html">Cloud Solutions</a></li>
+            <li><a href="hosting.html">Developer Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">Properties</a></li>
+            <li><a href="about.html">Property Management</a></li>
+            <li><a href="about.html">Real Estate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> +1 (813) 359-1500</li>
+            <li><i class="fas fa-envelope"></i> contact@sevenagy.com</li>
+            <li><i class="fas fa-clock"></i> Mon–Fri: 8 AM – 6 PM</li>
+            <li><i class="fas fa-map-marker-alt"></i> 4th St N Ste 300, St. Petersburg, FL 33702</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 SEVENAGY LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

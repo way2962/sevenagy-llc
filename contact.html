@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — SEVENAGY LLC</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">S</span>
+        <span>SEVENAGY</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="about-hero">
+    <div class="container">
+      <span class="section-tag">Contact</span>
+      <h1 class="section-title">Contact SEVENAGY</h1>
+      <p class="section-sub" style="max-width:720px">Use the form below or call direct. We review every inquiry personally.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-wrap">
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks for contacting SEVENAGY. We will respond during business hours.');">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="interest">I am interested in</label>
+        <input type="text" id="interest" name="interest" placeholder="Property management, acquisition, etc.">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Please include property address if applicable." required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <div>
+        <div class="info-card">
+          <h3>Contact Info</h3>
+          <div class="info-row">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span class="info-strong">Address</span>
+              <span class="info-weak">4th St N Ste 300<br>St. Petersburg, FL 33702</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <i class="fas fa-phone"></i>
+            <div>
+              <span class="info-strong">Phone</span>
+              <span class="info-weak">+1 (813) 359-1500</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span class="info-strong">Email</span>
+              <span class="info-weak">contact@sevenagy.com</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <i class="fas fa-clock"></i>
+            <div>
+              <span class="info-strong">Working Hours</span>
+              <span class="info-weak">Monday – Friday<br>8 AM – 6 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <strong>SEVENAGY LLC</strong>
+        <p>Veteran-owned and operated. Striving to be the best property management and real estate partner.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="properties.html"><i class="fas fa-chevron-right"></i> Properties</a></li>
+          <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+          <li><a href="blog.html"><i class="fas fa-chevron-right"></i> Blog</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fas fa-envelope"></i> contact@sevenagy.com</li>
+          <li><i class="fas fa-phone"></i> +1 (813) 359-1500</li>
+          <li><i class="fas fa-clock"></i> Mon–Fri: 8 AM – 6 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2024 SEVENAGY LLC. All rights reserved.</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
