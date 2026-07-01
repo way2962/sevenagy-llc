@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://sevenagy.thoangai.fans/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://sevenagy.thoangai.fans/about.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sevenagy.thoangai.fans/properties.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sevenagy.thoangai.fans/blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://sevenagy.thoangai.fans/contact.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sevenagy.thoangai.fans/privacy.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://sevenagy.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sevenagy.com/about.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sevenagy.com/properties.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sevenagy.com/blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sevenagy.com/contact.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sevenagy.com/privacy.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
