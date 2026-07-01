@@ -1,4 +1,4 @@
-document.addEventListener(''DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   const burger = document.getElementById('hamburger');
   const navLinks = document.getElementById('navLinks');
   if (burger && navLinks) {
